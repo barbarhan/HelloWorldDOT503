@@ -20,7 +20,6 @@ print('Glad to hear that sounds delicious, bon apetit')
 #Hello World DevOps A2
 
 
-print('Hello, World!')
 
 x = input('Enter your age:')
 print('Hello, ',x , 'years old mate. I wish you a good day.')
