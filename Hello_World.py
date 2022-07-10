@@ -6,6 +6,13 @@ print('Hello, World!')
 
 print('Hello, World!')
 
+print('Hello, World!')
+
+
+y = input('what is your name')
+
+print('Hello ', y)
+
 print('What did you eat today?')
 a = input()
 print('Glad to hear that sounds delicious, bon apetit')
