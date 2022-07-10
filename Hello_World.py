@@ -4,6 +4,11 @@
 print('Hello, World!')
 
 
+print('What did you eat today?')
+a = input()
+print('Glad to hear that sounds delicious, Bon Apetit')
+
+
 y = input('what is your name')
 
 print('Hello ', y)
@@ -23,4 +28,5 @@ print('Glad to hear that sounds delicious, bon apetit')
 
 x = input('Enter your age:')
 print('Hello, ',x , 'years old mate. I wish you a good day.')
+
 
