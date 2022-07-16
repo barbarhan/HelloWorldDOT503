@@ -62,3 +62,6 @@ jobs:
           git add time.txt
           git commit -m "new date commit"
           git push origin master
+      - name: Analysing the code with pylint
+        run: |
+          pylint $(git ls-files '*.py')
