@@ -8,7 +8,7 @@ on:
   push:
     branches: [ "main", "feature-x" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "feature-x"  ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,3 +34,21 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          build: npm run build
+          start: npm start
+      - name: Jest run
+        run: npm test        
+          
+      
+
+
+
+    
