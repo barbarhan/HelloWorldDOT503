@@ -54,12 +54,6 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
 
-      - name: commit
-        run: |
-          # Stage the file, commit and push
-          git add time.txt
-          git commit -m "new date commit"
-          git push origin master
       - name: Analysing the code with pylint
         run: |
           pylint $(git ls-files '*.py')
