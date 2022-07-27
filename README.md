@@ -11,8 +11,3 @@ My most starred repos:
 {{ SIGNUP_DATE }}
 {{ CURRENT_REPO_FULL_NAME }}
 {{ TOTAL_REPOS_SIZE_KB }}
-JEnkins TESTTEST  testestestsetdgfndghnagadfgadfg
-dfghdfgh
-tyhrdfhrtdi
-asdfasdf
-asdfasdf
