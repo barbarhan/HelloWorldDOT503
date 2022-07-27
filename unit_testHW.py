@@ -12,15 +12,15 @@ class Test(unittest.TestCase):
     def test_name(self):
         pass
     def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOo')
+        self.assertEqual('foo'.upper(), 'foo')
 
     def test_isupper(self):
-        self.assertTrue('FOO'.isupper())
-        self.assertFalse('Foo'.isupper())
+        self.assertTrue('foo'.isupper())
+        self.assertFalse('foo'.isupper())
 
     def test_split(self):
         s = 'hello world'
-        self.assertEqual(s.split(), ['hello', 'woorld'])
+        self.assertEqual(s.split(), ['hello', 'world'])
 
         with self.assertRaises(TypeError):
             s.split(2)
